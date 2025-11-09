@@ -33,20 +33,3 @@ It features an easy-to-use graphical interface for librarians to efficiently org
 
 ---
 
-##  Installation & Setup
-
- Step 1 — Clone the Repository
-```bash
-git clone https://github.com/KomalMalekar/Library_Management_System.git
-cd Library_Management_System
-
-
- Step 2 — Install Dependencies
-pip install mysql-connector-python pandas
-
- Step 3 — Import Database
-mysql -u root -p -h localhost  < library.sql
-When prompted, enter your MySQL password 
-
- Step 4 — Run the Application
-python main.py
